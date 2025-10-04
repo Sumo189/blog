@@ -15,22 +15,22 @@ const defaultLanguage = "en";
 // config area
 const languageFile = languageMap[defaultLanguage] || en; // do not edit it
 export const globalConfig = {
-  title: "Silvaire's Blog", // title
-  description: "Per Aspera Ad Astra", // description
-  author: "Silvaire", // your name
+  title: "Sumo's Blog", // title
+  description: "以傲慢和偏执", // description
+  author: "Sumo", // your name
   favicon:
-    "https://wsrv.nl/?url=avatars.githubusercontent.com/u/184231508&mask=circle", // favicon
+    "http://q2.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=100", // favicon
   url: "https://qwq.blue", // main url
   githubRepo: "silvaire-qwq/Miracle", // github repo
   dateCreated: "2024-08-23", // date created (YYYY-MM-DD)
 
   // homepage setting
   homePage: {
-    avatar: "https://wsrv.nl/?url=avatars.githubusercontent.com/u/184231508", // your avatar
-    author: "Silvaire", // your name
+    avatar: "http://q.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=640&img_type=jpg", // your avatar
+    author: "苏墨", // your name
     city: "Tianjin", // your location
     introduce:
-      "Awa middle schowol stuwudent whowo is leawarning frowont-end develowopment~!", // introduce your self
+      "那知天上计拙，不得下笔从戎。", // introduce your self
 
     // modules
     modules: {
