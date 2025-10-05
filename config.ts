@@ -34,7 +34,7 @@ export const globalConfig = {
 
     // modules
     modules: {
-      banner: "https://gcore.jsdelivr.net/gh/Sumo189/cdn@main/bg.jpg", // img url or "avatar"
+      banner: "https://gcore.jsdelivr.net/gh/Sumo189/cdn@main/bg3.jpg", // img url or "avatar"
       about: true, // about
       lastMoment: true, // last moment
       recentPosts: true, // recent posts
@@ -102,9 +102,9 @@ export const globalConfig = {
     enable: true,
     type: "giscus",
     giscus: {
-      repo: "Sumo189/giscus",
-      repoId: "R_kgDOP8HbsA",
-      categoryId: "DIC_kwDOP8HbsM4CwPM9",
+      repo: "Sumo189/blog",
+      repoId: "R_kgDOP8MewQ",
+      categoryId: "DIC_kwDOP8Mewc4CwRd0",
     },
   },
 
