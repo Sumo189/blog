@@ -75,7 +75,7 @@ export const globalConfig = {
   // do not use https://xxxx !!!
   // plz use https://xxxx/ !!!!!
   imgBed: false,
-  github: "silvaire-qwq", // your github username
+  github: "Sumo189", // your github username
 
   // navigation items
   nav: [
