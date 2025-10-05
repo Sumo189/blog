@@ -21,8 +21,8 @@ export const globalConfig = {
   favicon:
     "http://q2.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=100", // favicon
   url: "https://qwq.blue", // main url
-  githubRepo: "silvaire-qwq/Miracle", // github repo
-  dateCreated: "2024-08-23", // date created (YYYY-MM-DD)
+  githubRepo: "Sumo189/blog", // github repo
+  dateCreated: "2025-10-04", // date created (YYYY-MM-DD)
 
   // homepage setting
   homePage: {
