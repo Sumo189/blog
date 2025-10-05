@@ -10,7 +10,7 @@ const languageMap: Record<string, any> = { zh, en };
 // hey !!! you !!!
 // change it to "zh" if you want to use Chinese
 // website language (zh / en)
-const defaultLanguage = "en";
+const defaultLanguage = "zh";
 
 // config area
 const languageFile = languageMap[defaultLanguage] || en; // do not edit it
