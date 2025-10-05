@@ -68,7 +68,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: `https://github.com/${globalConfig.github}` },
+      { icon: "github", link: `https://github.com/Sumo189${globalConfig.github}` },
     ],
 
     search: {
