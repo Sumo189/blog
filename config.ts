@@ -30,16 +30,16 @@ export const globalConfig = {
     author: "苏墨", // your name
     city: "Tianjin", // your location
     introduce:
-      "那知天上计拙，不得下笔从戎。", // introduce your self
+      "一个非常fvv的初中生捏💀", // introduce your self
 
     // modules
     modules: {
-      banner: "https://youke1.picui.cn/s1/2025/09/24/68d3e9867b869.png", // img url or "avatar"
+      banner: "https://gcore.jsdelivr.net/gh/Sumo189/cdn@main/bg.jpg", // img url or "avatar"
       about: true, // about
       lastMoment: true, // last moment
       recentPosts: true, // recent posts
-      projects: true, // projects (very sloooooow)
-      techStack: true, // tech stack
+      projects: false, // projects (very sloooooow)
+      techStack: false, // tech stack
       friends: true, // friends
     },
 
@@ -102,12 +102,9 @@ export const globalConfig = {
     enable: true,
     type: "giscus",
     giscus: {
-      repo: "silvaire-qwq/Miracle",
-      repoId: "R_kgDOPz1WLw",
-      categoryId: "DIC_kwDOPz1WL84Cvsrq",
-    },
-    twikoo: {
-      env: "https://twikoo.qwq.blue",
+      repo: "Sumo189/giscus",
+      repoId: "R_kgDOP8HbsA",
+      categoryId: "DIC_kwDOP8HbsM4CwPM9",
     },
   },
 
