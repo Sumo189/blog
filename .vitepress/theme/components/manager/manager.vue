@@ -136,7 +136,7 @@ const momentFileTemplate = `{
           <div class="actions">
             <a
               :href="`https://github.com/${
-                Sumo189/blog
+               Sumo189/blog
               }/new/main/src/posts?filename=${getTimeString()}.md&value=${encodeURIComponent(
                 postFileTemplate
               )}`"
