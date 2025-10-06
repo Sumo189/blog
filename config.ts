@@ -20,9 +20,9 @@ export const globalConfig = {
   author: "Sumo", // your name
   favicon:
     "http://q2.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=100", // favicon
-  url: "https://qwq.blue", // main url
-  githubRepo: "silvaire-qwq/Miracle", // github repo
-  dateCreated: "2024-08-23", // date created (YYYY-MM-DD)
+  url: "letianpai.osfs.top", // main url
+  githubRepo: "Sumo189/blog", // github repo
+  dateCreated: "2025-10-04", // date created (YYYY-MM-DD)
 
   // homepage setting
   homePage: {

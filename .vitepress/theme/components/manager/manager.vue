@@ -136,7 +136,7 @@ const momentFileTemplate = `{
           <div class="actions">
             <a
               :href="`https://github.com/${
-               Sumo189/blog
+                globalConfig.githubRepo
               }/new/main/src/posts?filename=${getTimeString()}.md&value=${encodeURIComponent(
                 postFileTemplate
               )}`"
@@ -167,13 +167,13 @@ const momentFileTemplate = `{
               <Icon icon="fluent:open-12-regular" />
             </a>
             <a
-              :href="`https://github.com/Sumo189/blog/edit/main/src${post.url}.md`"
+              :href="`https://github.com/${globalConfig.githubRepo}/edit/main/src${post.url}.md`"
               target="_blank"
             >
               <Icon icon="fluent:edit-12-regular" />
             </a>
             <a
-              :href="`https://github.com/Sumo189/blog/delete/main/src${post.url}.md`"
+              :href="`https://github.com/${globalConfig.githubRepo}/delete/main/src${post.url}.md`"
               target="_blank"
             >
               <Icon icon="fluent:delete-12-regular" class="delete" />
@@ -195,7 +195,7 @@ const momentFileTemplate = `{
           <div class="actions">
             <a
               :href="`https://github.com/${
-                Sumo189/blog
+                globalConfig.githubRepo
               }/new/main/data/moments?filename=${getTimeString()}.json&value=${encodeURIComponent(
                 momentFileTemplate
               )}`"
@@ -222,13 +222,13 @@ const momentFileTemplate = `{
           <h3 class="title">{{ m.content }}</h3>
           <div class="actions">
             <a
-              :href="`https://github.com/Sumo189/blog/edit/main/data/moments/${m.fileName}`"
+              :href="`https://github.com/${globalConfig.githubRepo}/edit/main/data/moments/${m.fileName}`"
               target="_blank"
             >
               <Icon icon="fluent:edit-12-regular" />
             </a>
             <a
-              :href="`https://github.com/Sumo189/blog/delete/main/data/moments/${m.fileName}`"
+              :href="`https://github.com/${globalConfig.githubRepo}/delete/main/data/moments/${m.fileName}`"
               target="_blank"
             >
               <Icon icon="fluent:delete-12-regular" class="delete" />
@@ -251,7 +251,7 @@ const momentFileTemplate = `{
           <div class="actions">
             <a
               :href="`https://github.com/${
-                Sumo189/blog
+                globalConfig.githubRepo
               }/new/main/data/friends?filename=${getTimeString()}.json&value=${encodeURIComponent(
                 friendFileTemplate
               )}`"
@@ -282,13 +282,13 @@ const momentFileTemplate = `{
               <Icon icon="fluent:open-12-regular" />
             </a>
             <a
-              :href="`https://github.com/Sumo189/blog/edit/main/data/friends/${f.fileName}`"
+              :href="`https://github.com/${globalConfig.githubRepo}/edit/main/data/friends/${f.fileName}`"
               target="_blank"
             >
               <Icon icon="fluent:edit-12-regular" />
             </a>
             <a
-              :href="`https://github.com/Sumo189/blog/delete/main/data/friends/${f.fileName}`"
+              :href="`https://github.com/${globalConfig.githubRepo}/delete/main/data/friends/${f.fileName}`"
               target="_blank"
             >
               <Icon icon="fluent:delete-12-regular" class="delete" />
