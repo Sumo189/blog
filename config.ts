@@ -20,7 +20,11 @@ export const globalConfig = {
   author: "Sumo", // your name
   favicon:
     "http://q2.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=100", // favicon
+<<<<<<< HEAD
   url: "letianpai.osfs.top", // main url
+=======
+  url: "https://letianpai.osfs.top", // main url
+>>>>>>> 75bbee6c44e23b5d2fabb9215bcf99fbf32f0519
   githubRepo: "Sumo189/blog", // github repo
   dateCreated: "2025-10-04", // date created (YYYY-MM-DD)
 
