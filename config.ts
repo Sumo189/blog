@@ -28,7 +28,7 @@ export const globalConfig = {
   homePage: {
     avatar: "http://q.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=640&img_type=jpg", // your avatar
     author: "苏墨", // your name
-    city: "Tianjin-Xiqing", // your location
+    city: "天津市 西青区", // your location
     introduce:
       "一个非常fvv的初中生捏💀", // introduce your self
 
