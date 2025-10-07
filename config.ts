@@ -34,7 +34,7 @@ export const globalConfig = {
 
     // modules
     modules: {
-      banner: "http://q.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=640&img_type=jpg", // img url or "avatar"
+      banner: "avatar", // img url or "avatar"
       about: true, // about
       lastMoment: true, // last moment
       recentPosts: true, // recent posts
