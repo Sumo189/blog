@@ -34,7 +34,7 @@ export const globalConfig = {
 
     // modules
     modules: {
-      banner: "https://gcore.jsdelivr.net/gh/Sumo189/cdn@main/bg3.jpg", // img url or "avatar"
+      banner: "http://q.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=640&img_type=jpg", // img url or "avatar"
       about: true, // about
       lastMoment: true, // last moment
       recentPosts: true, // recent posts
