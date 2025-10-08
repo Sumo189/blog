@@ -110,7 +110,7 @@ export const globalConfig = {
     enable: true,
     type: "twikoo",
     twikoo: {
-      env: "http://ltp-twikoo.jkun.cf/",
+      env: "https://ltp-twikoo.jkun.cf/",
     },
   },
 
