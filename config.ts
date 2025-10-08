@@ -83,7 +83,7 @@ export const globalConfig = {
   // do not use https://xxxx !!!
   // plz use https://xxxx/ !!!!!
   imgBed: false,
-  github: "silvaire-qwq", // your github username
+  github: "Sumo189", // your github username
 
   // navigation items
   nav: [
@@ -108,15 +108,9 @@ export const globalConfig = {
   // comments
   comments: {
     enable: true,
-    type: "giscus",
-    giscus: {
-      repo: "Sumo189/blog",
-      repoId: "R_kgDOP8MewQ",
-      categoryId: "DIC_kwDOP8Mewc4CwRd0",
-      themes: {
-        light: "https://giscus.catppuccin.com/themes/latte.css",
-        dark: "https://giscus.catppuccin.com/themes/mocha.css",
-      },
+    type: "twikoo",
+    twikoo: {
+      env: "http://ltp-twikoo.jkun.cf/",
     },
   },
 
