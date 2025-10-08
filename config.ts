@@ -19,15 +19,23 @@ export const globalConfig = {
   description: "以傲慢和偏执", // description
   author: "Sumo", // your name
   favicon:
-    "http://q2.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=100", // favicon
+    "https://wsrv.nl/?url=https://gcore.jsdelivr.net/gh/Sumo189/cdn@main/tx.jpg?s=256&u=0a370792ba6bbb95a04d309171b562bcd7283a0f&v=4&mask=circle", // favicon (suggest: circle mask)
   url: "letianpai.osfs.top", // main url
-  githubRepo: "Sumo189/blog", // github repo
+  githubRepo: "Sumo189/blog", // the github repo of ur blog
   dateCreated: "2025-10-04", // date created (YYYY-MM-DD)
 
-  // homepage setting
+  // theme setting
+  styles: {
+    hue: 290,
+    radius: 26, // n[px]
+    uppercase: true, // CATEGORIES / Categories
+  },
+
+  // homepage setting (when globalConfig.modules.banner is a url)
   homePage: {
-    avatar: "http://q.qlogo.cn/headimg_dl?dst_uin=3888705871&spec=640&img_type=jpg", // your avatar
-    author: "苏墨", // your name
+    avatar:
+      "https://wsrv.nl/?url=https://gcore.jsdelivr.net/gh/Sumo189/cdn@main/tx.jpg?s=256&u=0a370792ba6bbb95a04d309171b562bcd7283a0f&v=4&mask=circle", // your avatar
+    author: "Sumo", // your name
     city: "天津市 西青区", // your location
     introduce:
       "一个非常fvv的初中生捏💀", // introduce your self
@@ -75,7 +83,7 @@ export const globalConfig = {
   // do not use https://xxxx !!!
   // plz use https://xxxx/ !!!!!
   imgBed: false,
-  github: "Sumo189", // your github username
+  github: "silvaire-qwq", // your github username
 
   // navigation items
   nav: [
@@ -105,8 +113,15 @@ export const globalConfig = {
       repo: "Sumo189/blog",
       repoId: "R_kgDOP8MewQ",
       categoryId: "DIC_kwDOP8Mewc4CwRd0",
+      themes: {
+        light: "https://giscus.catppuccin.com/themes/latte.css",
+        dark: "https://giscus.catppuccin.com/themes/mocha.css",
+      },
     },
   },
+
+  // contact
+  contact: [],
 
   // waterfall
   waterfall: {
@@ -119,7 +134,8 @@ export const globalConfig = {
   friendWeights: {
     // example: -99, // "example" will be displayed at the top
     qwq: -50,
-    friends: 0, // "friends" will be displayed at the bottom
+    friends: -1,
+    unable: 0, // "unable" will be displayed at the bottom
   },
 
   friends: friendList, // friends (edit it in config/friends)
