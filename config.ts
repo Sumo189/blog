@@ -26,8 +26,8 @@ export const globalConfig = {
 
   // theme setting
   styles: {
-    hue: 290,
-    radius: 26, // n[px]
+    hue: 0,
+    radius: 25, // n[px]
     uppercase: true, // CATEGORIES / Categories
   },
 
