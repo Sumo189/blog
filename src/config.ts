@@ -124,8 +124,8 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
-		desktop: ["/assets/desktop-banner/1.webp"], // 桌面横幅图片
-		mobile: ["/assets/mobile-banner/1.webp"], // 移动横幅图片
+		desktop: ["https://gcore.jsdelivr.net/gh/Sumo189/cdn@main/webwall.png"], // 桌面横幅图片
+		mobile: ["https://gcore.jsdelivr.net/gh/Sumo189/cdn@main/phonewall.jpg"], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
