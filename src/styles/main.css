@@ -10,7 +10,7 @@
 /* 导入 ZenMaruGothic-Medium 字体 */
 @font-face {
   font-family: 'ZZAW';
-  src: url('https://gcore.jsdelivr.net/gh/Sumo189/cdn@main/ZZAW.ttc') format('truetype');
+  src: url('https://bgithub.xyz/Sumo189/cdn/blob/main/ZZAW.ttc') format('truetype');
   font-weight: 500;
   font-display: swap;
 }
